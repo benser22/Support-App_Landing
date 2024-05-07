@@ -6,7 +6,7 @@ export default {
       colors: {
         'text-primary': '#0F2137',
         'text-secondary': '#343D48',
-        primary: '#ffc159',
+        primary: '#E5A740',
         secondary: '#fff0d7',
         'bg-primary': '#2b293e',
         'bg-secondary': '#353448',
@@ -39,5 +39,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };

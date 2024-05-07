@@ -1,106 +1,96 @@
 {
   "section-header": {
-    "logo-wtext": {
+    "logo": {
       "image": {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715093485/supportApp/logo/header-logo.png",
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715105390/supportApp/logo/home-logo.png",
         "alt": "logo image"
       }
     },
     "dropdow-icon": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207472/ia_landing/dropdown.png",
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715099070/supportApp/icons/dropdown.png",
       "alt": "icon drop"
     },
     "links": [
       {
         "id": 1,
-        "title": "user cases",
-        "href": "cases",
-        "isDropdown": true,
-        "items": [
-          { "id": 1, "text": "about", "link": "about", "external": false },
-          { "id": 2, "text": "future", "link": "future", "external": false },
-          {
-            "id": 3,
-            "text": "testimonials",
-            "link": "testimonials",
-            "external": false
-          }
-        ],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255278/ia_landing/mobile%20icons/flrxfwem7muuxdrjukjo.png",
-        "alt": "user-cases icon"
+        "title": "Home",
+        "href": "home",
+        "isDropdown": false,
+        "items": [],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/home.png",
+        "alt": "home icon"
       },
       {
         "id": 2,
-        "title": "resources",
-        "href": "resources",
+        "title": "Adversite",
+        "href": "adversite",
         "isDropdown": true,
         "items": [
-          { "id": 1, "text": "how", "link": "how", "external": false },
-          { "id": 2, "text": "start now", "link": "last", "external": false },
-          { "id": 3, "text": "resource 2", "link": "", "external": false }
+          { "id": 1, "text": "Adversite 1", "link": "", "external": false },
+          { "id": 2, "text": "Adversite 2", "link": "", "external": false },
+          { "id": 3, "text": "Adversite 3", "link": "", "external": false }
         ],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/cy2zvnuwnvw4tzpjuhny.png",
-        "alt": "icon resources"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/adversite.png",
+        "alt": "adversite icon"
       },
       {
         "id": 3,
-        "title": "weekly demos",
-        "href": "demos",
+        "title": "Supports",
+        "href": "supports",
         "external": false,
-        "isDropdown": false,
-        "items": ["", "", ""],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/ledbltcxpajnrui7qaci.png",
-        "alt": "icon demos"
+        "isDropdown": true,
+        "items": [
+          { "id": 1, "text": "Supports 1", "link": "", "external": false },
+          { "id": 2, "text": "Supports 2", "link": "", "external": false },
+          { "id": 3, "text": "Supports 3", "link": "", "external": false }
+        ],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/supports.png",
+        "alt": "support icon"
       },
       {
         "id": 4,
-        "title": "pricing",
-        "href": "last",
+        "title": "About",
+        "href": "about",
         "isDropdown": false,
         "external": false,
         "items": ["", "", ""],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/npdt3odrgjp3bfbr9bpg.png",
-        "alt": "icon pricing"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/about.png",
+        "alt": "about icon"
       }
     ],
+    "search-bar": {
+      "icon": {
+        "url": "",
+        "alt": "search icon",
+        "placeholder": ""
+      }
+    },
     "login": "Login",
-    "login-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255278/ia_landing/mobile%20icons/wrrsytxf19dnx6ofzob8.png",
+    "login-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715101285/supportApp/icons/padlock.png",
+    "login-icon-mobile": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/login.png",
     "login-button": "Get Started",
-    "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255277/ia_landing/mobile%20icons/af67ngppd7qdg6su1hjk.png"
+    "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715108490/supportApp/icons-mobile/get-started.png"
   },
   "section-hero": {
-    "bg": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_auto,q_auto/v1/ia_landing/hero/bg",
-      "alt": "hero bg"
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715106265/supportApp/hero/gtxptdjm5sd4prriyfvt.png",
+      "alt": "hero image"
     },
-    "title": "Silika Helps",
-    "title2": "Marketing Agencies!",
-    "subtitle": "At nulla tristique facilisis augue. Lectus diam dignissim erat blandit pellentesque egestas nulla a. Nulla consectetur nunc egestas metus pellentesque.",
-    "button1": "Get Started",
-    "button2": "How It Works"
+    "title": "Ultimate support system for leading agencies",
+    "subtitle": "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
+    "button": "Get Started",
+    "input-placeholder": "Enter Email address"
   },
-  "section-slider": [
-    {
-      "id": 1,
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/azid7wpbslt7gejwb6or.png",
-      "alt": "logo1 image"
-    },
-    {
-      "id": 2,
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/yhfgy28c4z8hfw9voyi3.png",
-      "alt": "logo2 image"
-    },
-    {
-      "id": 3,
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207922/ia_landing/slider/t3ylsyshjcsuuborlami.png",
-      "alt": "logo3 image"
-    },
-    {
-      "id": 4,
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207922/ia_landing/slider/s19v3rzgw3h8pql219zc.png",
-      "alt": "logo4 image"
-    }
-  ],
+  "sponsors": {
+    "text": "Sponsored by:",
+    "sponsors-logos": [
+      {
+        "id": 1,
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/azid7wpbslt7gejwb6or.png",
+        "alt": "logo1 image"
+      }
+    ]
+  },
   "section-about": {
     "video": {
       "url": "https://res.cloudinary.com/djzp2k8gd/video/upload/v1714271421/ia_landing/arflysquuiyapgl5nwcd.mp4",

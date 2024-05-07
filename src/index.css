@@ -5,3 +5,11 @@
 body {
   font-family: 'DM Sans', sans-serif;
 }
+
+.menu-item {
+  transition: ease-in 0.4s;
+}
+
+.button-item {
+  transition: ease-out 0.3s;
+}
