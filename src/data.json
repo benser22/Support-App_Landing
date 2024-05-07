@@ -1,0 +1,471 @@
+{
+  "section-header": {
+    "logo-wtext": {
+      "image": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715093485/supportApp/logo/header-logo.png",
+        "alt": "logo image"
+      }
+    },
+    "dropdow-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207472/ia_landing/dropdown.png",
+      "alt": "icon drop"
+    },
+    "links": [
+      {
+        "id": 1,
+        "title": "user cases",
+        "href": "cases",
+        "isDropdown": true,
+        "items": [
+          { "id": 1, "text": "about", "link": "about", "external": false },
+          { "id": 2, "text": "future", "link": "future", "external": false },
+          {
+            "id": 3,
+            "text": "testimonials",
+            "link": "testimonials",
+            "external": false
+          }
+        ],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255278/ia_landing/mobile%20icons/flrxfwem7muuxdrjukjo.png",
+        "alt": "user-cases icon"
+      },
+      {
+        "id": 2,
+        "title": "resources",
+        "href": "resources",
+        "isDropdown": true,
+        "items": [
+          { "id": 1, "text": "how", "link": "how", "external": false },
+          { "id": 2, "text": "start now", "link": "last", "external": false },
+          { "id": 3, "text": "resource 2", "link": "", "external": false }
+        ],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/cy2zvnuwnvw4tzpjuhny.png",
+        "alt": "icon resources"
+      },
+      {
+        "id": 3,
+        "title": "weekly demos",
+        "href": "demos",
+        "external": false,
+        "isDropdown": false,
+        "items": ["", "", ""],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/ledbltcxpajnrui7qaci.png",
+        "alt": "icon demos"
+      },
+      {
+        "id": 4,
+        "title": "pricing",
+        "href": "last",
+        "isDropdown": false,
+        "external": false,
+        "items": ["", "", ""],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/npdt3odrgjp3bfbr9bpg.png",
+        "alt": "icon pricing"
+      }
+    ],
+    "login": "Login",
+    "login-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255278/ia_landing/mobile%20icons/wrrsytxf19dnx6ofzob8.png",
+    "login-button": "Get Started",
+    "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255277/ia_landing/mobile%20icons/af67ngppd7qdg6su1hjk.png"
+  },
+  "section-hero": {
+    "bg": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_auto,q_auto/v1/ia_landing/hero/bg",
+      "alt": "hero bg"
+    },
+    "title": "Silika Helps",
+    "title2": "Marketing Agencies!",
+    "subtitle": "At nulla tristique facilisis augue. Lectus diam dignissim erat blandit pellentesque egestas nulla a. Nulla consectetur nunc egestas metus pellentesque.",
+    "button1": "Get Started",
+    "button2": "How It Works"
+  },
+  "section-slider": [
+    {
+      "id": 1,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/azid7wpbslt7gejwb6or.png",
+      "alt": "logo1 image"
+    },
+    {
+      "id": 2,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/yhfgy28c4z8hfw9voyi3.png",
+      "alt": "logo2 image"
+    },
+    {
+      "id": 3,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207922/ia_landing/slider/t3ylsyshjcsuuborlami.png",
+      "alt": "logo3 image"
+    },
+    {
+      "id": 4,
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207922/ia_landing/slider/s19v3rzgw3h8pql219zc.png",
+      "alt": "logo4 image"
+    }
+  ],
+  "section-about": {
+    "video": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/video/upload/v1714271421/ia_landing/arflysquuiyapgl5nwcd.mp4",
+      "alt": "video design"
+    },
+    "title": "More About Us",
+    "subtitle": "Professional & Team Choose Copy.Ai",
+    "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+    "button": "Get Started"
+  },
+  "section-features": {
+    "title": "Our Features",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Blog Content",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://www.blogger.com/about/?hl=es",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/blog.png",
+        "alt": "Blog content icon"
+      },
+      {
+        "id": 2,
+        "title": "Article",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://www.blogger.com/about/?hl=es",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/article.png",
+        "alt": "Article icon"
+      },
+      {
+        "id": 3,
+        "title": "Content Writing",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://www.blogger.com/about/?hl=es",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/content%20writing.png",
+        "alt": "Writing icon"
+      },
+      {
+        "id": 4,
+        "title": "Seo",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://www.blogger.com/about/?hl=es",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/seo.png",
+        "alt": "Seo icon"
+      },
+      {
+        "id": 5,
+        "title": "Design",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://www.blogger.com/about/?hl=es",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/design.png",
+        "alt": "Design icon"
+      },
+      {
+        "id": 6,
+        "title": "Coding",
+        "subtitle": "Write optimized blog posts in a fraction of the time",
+        "action": "Try Blog Content ->",
+        "action-link": "https://www.blogger.com/about/?hl=es",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/coding.png",
+        "alt": "Coding icon"
+      }
+    ]
+  },
+  "section-say": {
+    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714203499/ia_landing/say/bg.png",
+    "title": "Say ‘Goodbye’ To The Blank Page",
+    "title2": "For Good",
+    "subtitle": "Get your free account today",
+    "button1": "signup with google",
+    "google-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202047/ia_landing/icons/google.png",
+      "alt": "google icon"
+    },
+    "button2": "signup with email",
+    "option": "or",
+    "message": "No Credit Card Required"
+  },
+  "section-testimonials": {
+    "title": "Let’s See What Our Clients Says",
+    "clients": [
+      {
+        "id": 1,
+        "title": "Brooklyn Simmons",
+        "role": "Nursing Assistant",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/1.png",
+        "alt": "image client"
+      },
+      {
+        "id": 2,
+        "title": "Steve Henderson",
+        "role": "Mathematics Teacher",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
+        "alt": "image client"
+      },
+      {
+        "id": 3,
+        "title": "Lorena Ramos",
+        "role": "Software Engineer",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
+        "alt": "image client"
+      },
+      {
+        "id": 4,
+        "title": "Robert Smith",
+        "role": "Executive Chef",
+        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/4.png",
+        "alt": "image client"
+      }
+    ]
+  },
+  "section-how": {
+    "title": "How it works",
+    "checks-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714212358/ia_landing/icons/check.png",
+      "alt": "check icon"
+    },
+    "timeline": {
+      "stage 1": {
+        "id": 1,
+        "title": "Enter your copywrite project",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img1.webp",
+        "alt": "stage1 image"
+      },
+      "stage 2": {
+        "id": 2,
+        "title": "Genarate Idea",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img2.webp",
+        "alt": "stage2 image"
+      },
+      "stage 3": {
+        "id": 3,
+        "title": "Copy & Use",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img3.webp",
+        "alt": "stage3 image"
+      },
+      "stage 4": {
+        "id": 4,
+        "title": "Finalize Project",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
+        "checks": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
+          "Tortor turpis nibh viverra nunc bibendum."
+        ],
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img4.webp",
+        "alt": "stage4 image"
+      }
+    }
+  },
+  "section-last": {
+    "title": "Ready to level-up?",
+    "subtitle": "Id ipsum amet nibh dolor mi ac diam pellentesque.",
+    "button": "Get Started - It’s Free",
+    "checks-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714212358/ia_landing/icons/check.png",
+      "alt": "check icon"
+    },
+    "checks": [
+      "No Credit Card Required",
+      "30 credits on sign up",
+      "90+ contents type to explore"
+    ]
+  },
+  "section-footer": {
+    "product": {
+      "title": "Product",
+      "href": "#",
+      "links": [
+        {
+          "id": 1,
+          "text": "Login",
+          "url": "/",
+          "external": true
+        },
+        {
+          "id": 2,
+          "text": "Pricing",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 3,
+          "text": "Copy ai Reviews",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 4,
+          "text": "Alternatives",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 5,
+          "text": "25+ Languages",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 6,
+          "text": "Free Ai Tools",
+          "url": "say",
+          "external": false
+        }
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "href": "#",
+      "links": [
+        {
+          "id": 1,
+          "text": "Blog",
+          "url": "https://www.blogger.com/about/?hl=es",
+          "external": true
+        },
+        {
+          "id": 2,
+          "text": "Careers",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 3,
+          "text": "Community",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 4,
+          "text": "Twitter",
+          "url": "https://twitter.com/",
+          "external": true
+        },
+        {
+          "id": 5,
+          "text": "Linkedin",
+          "url": "https://linkedin.com/",
+          "external": true
+        },
+        {
+          "id": 6,
+          "text": "Affiliate Program",
+          "url": "#",
+          "external": false
+        }
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "href": "#",
+      "links": [
+        {
+          "id": 1,
+          "text": "Weekly Deos",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 2,
+          "text": "Contact Us",
+          "url": "mailto:example@example.com",
+          "external": true
+        },
+        {
+          "id": 3,
+          "text": "Report a Bug",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 4,
+          "text": "Report an Outage",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 5,
+          "text": "Request a New Feature",
+          "url": "#",
+          "external": false
+        }
+      ]
+    },
+    "user-cases": {
+      "title": "User Cases",
+      "href": "#",
+      "links": [
+        {
+          "id": 1,
+          "text": "For Blog Writers",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 2,
+          "text": "For Social Media",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 3,
+          "text": "Managers",
+          "url": "#",
+          "external": false
+        },
+        {
+          "id": 4,
+          "text": "Report",
+          "url": "#",
+          "external": false
+        }
+      ]
+    },
+    "logo-white": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207440/ia_landing/logos/logo-w.png",
+      "alt": "logo image"
+    },
+    "copywrite": "© 2022 copy ai, Inc",
+    "privacy": { "text": "Privacy Notice", "url": "" },
+    "terms": { "text": "Terms of service", "url": "" },
+    "social-media": {
+      "facebook": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/facebook.png",
+        "alt": "facebook icon",
+        "link": "https://www.facebook.com/pages/create/"
+      },
+      "instagram": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/instagram.png",
+        "alt": "linkedin icon",
+        "link": "https://www.instagram.com/"
+      },
+      "twitter": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/twitter.png",
+        "alt": "twitter icon",
+        "link": "https://twitter.com/userrandom"
+      }
+    }
+  }
+}

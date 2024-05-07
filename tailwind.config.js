@@ -1,8 +1,43 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'text-primary': '#0F2137',
+        'text-secondary': '#343D48',
+        primary: '#ffc159',
+        secondary: '#fff0d7',
+        'bg-primary': '#2b293e',
+        'bg-secondary': '#353448',
+      },
+      fontFamily: {
+        'DM Sans': ['DM Sans', 'sans-serif'],
+      },
+      fontOpticalSizing: ['auto'],
+      fontWeight: {
+        thin: 100,
+        'extra-light': 200,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        'semi-bold': 600,
+        bold: 700,
+        'extra-bold': 800,
+        black: 900,
+      },
+      fontStyle: {
+        italic: 'italic',
+        normal: 'normal',
+        oblique: 'oblique',
+      },
+      screens: {
+        xxs: '280px',
+        mini: '320px',
+        break_custom: '390px',
+        break_custom2: '542px',
+      },
+    },
   },
   plugins: [],
 };
