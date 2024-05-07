@@ -60,7 +60,7 @@
     ],
     "search-bar": {
       "icon": {
-        "url": "",
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715114328/supportApp/icons/search-icon.png",
         "alt": "search icon",
         "placeholder": ""
       }
@@ -69,7 +69,7 @@
     "login-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715101285/supportApp/icons/padlock.png",
     "login-icon-mobile": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/login.png",
     "login-button": "Get Started",
-    "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715108490/supportApp/icons-mobile/get-started.png"
+    "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715114871/supportApp/icons-mobile/started.png"
   },
   "section-hero": {
     "image": {

@@ -4,7 +4,7 @@ import Hero from './components/Hero/Hero';
 
 function App() {
   return (
-    <main>
+    <main className="h-screen">
       <Navbar />
       <Layout maxWidth="max-w-[1440px]">
         <Hero />

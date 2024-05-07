@@ -8,7 +8,7 @@ function Hero() {
           <img
             src={data['section-hero'].image.url}
             alt={data['section-hero'].image.alt}
-            className="max-w-sm"
+            className="max-w-[90vw]"
           />
           <div className="w-1/2">
             <h1 className="text-5xl font-bold">Box Office News!</h1>
