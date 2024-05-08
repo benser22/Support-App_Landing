@@ -52,11 +52,10 @@ const Navbar = () => {
   return (
     <header
       className={`fixed z-[98] top-0 left-0 w-full px-8 xl:px-16 py-2 flex justify-between items-center h-[78px] text-text-primary ${
-        isScrolled ? 'bg-[rgba(256,256,256,0.4)] backdrop-filter' : ''
+        isScrolled ? 'border-b' : ''
       }`}
       style={{
-        backdropFilter: isScrolled ? 'blur(10px)' : 'none',
-        backgroundColor: isScrolled ? '' : 'transparent',
+        backgroundColor: '#FFFCF7',
       }}
     >
       <div className="flex items-center justify-between w-full text-text-primary">
