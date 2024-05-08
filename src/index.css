@@ -5,6 +5,7 @@
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: '#FFFCF7';
+  color: rgb(15 33 55);
 }
 
 .menu-item {
@@ -13,4 +14,8 @@ body {
 
 .button-item {
   transition: ease-out 0.3s;
+}
+
+.hover-effect:hover {
+  filter: invert(0.5);
 }

@@ -36,7 +36,7 @@
       {
         "id": 3,
         "title": "Supports",
-        "href": "supports",
+        "href": "support",
         "external": false,
         "isDropdown": true,
         "items": [
@@ -100,6 +100,30 @@
         }
       ]
     }
+  },
+  "section-support": {
+    "arrow": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136281/supportApp/support/arrow.png",
+      "alt": "arrow icon"
+    },
+    "cards": [
+      {
+        "id": 1,
+        "title": "Do you need help support",
+        "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the update managments services.",
+        "action-link": "/support",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
+        "alt": "support operator icon"
+      },
+      {
+        "id": 2,
+        "title": "Do you need help support",
+        "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the update managments services.",
+        "action-link": "/support",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
+        "alt": "support operator icon"
+      }
+    ]
   },
   "section-about": {
     "video": {
@@ -220,63 +244,6 @@
         "alt": "image client"
       }
     ]
-  },
-  "section-how": {
-    "title": "How it works",
-    "checks-icon": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714212358/ia_landing/icons/check.png",
-      "alt": "check icon"
-    },
-    "timeline": {
-      "stage 1": {
-        "id": 1,
-        "title": "Enter your copywrite project",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
-        "checks": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
-          "Tortor turpis nibh viverra nunc bibendum."
-        ],
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img1.webp",
-        "alt": "stage1 image"
-      },
-      "stage 2": {
-        "id": 2,
-        "title": "Genarate Idea",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
-        "checks": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
-          "Tortor turpis nibh viverra nunc bibendum."
-        ],
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img2.webp",
-        "alt": "stage2 image"
-      },
-      "stage 3": {
-        "id": 3,
-        "title": "Copy & Use",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
-        "checks": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
-          "Tortor turpis nibh viverra nunc bibendum."
-        ],
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img3.webp",
-        "alt": "stage3 image"
-      },
-      "stage 4": {
-        "id": 4,
-        "title": "Finalize Project",
-        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra est purus eu tempor tincidunt commodo.",
-        "checks": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Quam duis viverra amet, ultrices risus quis integer nec nulla.",
-          "Tortor turpis nibh viverra nunc bibendum."
-        ],
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202983/ia_landing/how/img4.webp",
-        "alt": "stage4 image"
-      }
-    }
   },
   "section-last": {
     "title": "Ready to level-up?",
