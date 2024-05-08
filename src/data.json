@@ -26,7 +26,12 @@
         "href": "adversite",
         "isDropdown": true,
         "items": [
-          { "id": 1, "text": "Adversite 1", "link": "", "external": false },
+          {
+            "id": 1,
+            "text": "Features",
+            "link": "features",
+            "external": false
+          },
           { "id": 2, "text": "Adversite 2", "link": "", "external": false },
           { "id": 3, "text": "Adversite 3", "link": "", "external": false }
         ],
@@ -146,63 +151,27 @@
     }
   },
   "section-features": {
-    "title": "Our Features",
-    "cards": [
-      {
-        "id": 1,
-        "title": "Blog Content",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://www.blogger.com/about/?hl=es",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/blog.png",
-        "alt": "Blog content icon"
-      },
-      {
-        "id": 2,
-        "title": "Article",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://www.blogger.com/about/?hl=es",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/article.png",
-        "alt": "Article icon"
-      },
-      {
-        "id": 3,
-        "title": "Content Writing",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://www.blogger.com/about/?hl=es",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/content%20writing.png",
-        "alt": "Writing icon"
-      },
-      {
-        "id": 4,
-        "title": "Seo",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://www.blogger.com/about/?hl=es",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/seo.png",
-        "alt": "Seo icon"
-      },
-      {
-        "id": 5,
-        "title": "Design",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://www.blogger.com/about/?hl=es",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202095/ia_landing/icons/design.png",
-        "alt": "Design icon"
-      },
-      {
-        "id": 6,
-        "title": "Coding",
-        "subtitle": "Write optimized blog posts in a fraction of the time",
-        "action": "Try Blog Content ->",
-        "action-link": "https://www.blogger.com/about/?hl=es",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714202094/ia_landing/icons/coding.png",
-        "alt": "Coding icon"
-      }
-    ]
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157706/supportApp/features/image.png",
+      "alt": "image features"
+    },
+    "check-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157572/supportApp/features/check-icon.png",
+      "alt": "check icon"
+    },
+    "emoji": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157572/supportApp/features/angel-emoji.png",
+      "alt": "emoji icon"
+    },
+    "title": "Built in one app to make instant reply with in lowest minutes",
+    "subtitle": "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
+    "check1": "Medical and vision",
+    "check2": "Life insurance",
+    "check3": "400(k) savings",
+    "check4": "HSAs and FSAs",
+    "check5": "Commuter benefits",
+    "check6": "529 college savings",
+    "action": "Explore more >"
   },
   "section-say": {
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714203499/ia_landing/say/bg.png",

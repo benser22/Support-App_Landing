@@ -11,7 +11,10 @@ function About() {
         />
         <div className="flex flex-col justify-center items-start text-text-primary space-y-2 px-4">
           <div className="flex items-center">
-            <p className="text-3xl lg:w-4/5 font-bold leading-10">
+            <p
+              className="text-2xl sm:text-3xl lg:w-4/5 font-bold"
+              style={{ lineHeight: '2.8rem' }}
+            >
               {data['section-about'].title}
               <img
                 src={data['section-about'].emoji.url}
