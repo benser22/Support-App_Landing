@@ -43,7 +43,13 @@
             "external": false
           },
           { "id": 2, "text": "Explore", "link": "explore", "external": false },
-          { "id": 3, "text": "Prices", "link": "price", "external": false }
+          { "id": 3, "text": "Prices", "link": "price", "external": false },
+          {
+            "id": 4,
+            "text": "Testimonials",
+            "link": "testimonials",
+            "external": false
+          }
         ],
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/adversite.png",
         "alt": "adversite icon"
@@ -280,33 +286,49 @@
     "clients": [
       {
         "id": 1,
-        "title": "Brooklyn Simmons",
-        "role": "Nursing Assistant",
-        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "name": "Minnie Horn",
+        "role": "@hello.mimmie",
+        "paragraph": "I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/1.png",
         "alt": "image client"
       },
       {
         "id": 2,
-        "title": "Steve Henderson",
-        "role": "Mathematics Teacher",
-        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "name": "Paseka Nku",
+        "role": "@hey.nku",
+        "paragraph": "I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
         "alt": "image client"
       },
       {
         "id": 3,
-        "title": "Lorena Ramos",
-        "role": "Software Engineer",
-        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "name": "Merryn Manley",
+        "role": "@merryn.manley",
+        "paragraph": "Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
         "alt": "image client"
       },
       {
         "id": 4,
-        "title": "Robert Smith",
-        "role": "Executive Chef",
-        "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
+        "name": "Paseka Nku",
+        "role": "@hey.nku",
+        "paragraph": "I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
+        "alt": "image client"
+      },
+      {
+        "id": 5,
+        "name": "Merryn Manley",
+        "role": "@merryn.manley",
+        "paragraph": "Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
+        "alt": "image client"
+      },
+      {
+        "id": 6,
+        "name": "Thais Carballal",
+        "role": "@myself.thais",
+        "paragraph": "For our recent trip to S.A. I booked several accommodations through SA Places. I just wanted to say that everything turned out perfect. Fast and professional.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/4.png",
         "alt": "image client"
       }

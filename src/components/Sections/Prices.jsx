@@ -10,14 +10,14 @@ function Prices() {
 
   return (
     <section id="price">
-      <div className="flex flex-col items-center py-20 text-text-primary">
+      <div className="flex flex-col items-center pt-20 pb-10 text-text-primary">
         <p className="font-bold text-3xl text-center">
           {data['section-price'].title}
         </p>
         <p className="text-md text-[#858B91] mt-4">
           {data['section-price'].subtitle}
         </p>
-        <div className="mt-12 flex items-center justify-center gap-4">
+        <div className="my-12 flex items-center justify-center gap-4">
           <p className="font-semibold">{data['section-price'].option1}</p>
           <input
             type="checkbox"
