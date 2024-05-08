@@ -81,7 +81,7 @@ function Explore() {
           <img
             src={data['section-explore'].image.url}
             alt={data['section-explore'].image.alt}
-            className="hidden sm:block ml-auto mt-12 md:mt-30 w-1/2 rounded-l-xl rounded-b-none"
+            className="hidden sm:block ml-auto mt-12 md:mt-30 w-1/2 rounded-tl-xl"
           />
         </div>
       </div>

@@ -334,6 +334,13 @@
       }
     ]
   },
+  "section-last": {
+    "title": "Subscribe to get notified about update",
+    "subtitle": "By subscribing with your mail, you will accept our privacy policy",
+    "input_placeholder": "Enter your email",
+    "button": "Subscribe us",
+    "error": "Please enter a valid email address."
+  },
   "section-footer": {
     "product": {
       "title": "Product",
