@@ -1,6 +1,24 @@
+import { useState } from 'react';
 import data from '../../data.json';
 
 function Hero() {
+  const [email, setEmail] = useState('');
+  const [isValidEmail, setIsValidEmail] = useState(false);
+
+  const handleInputChange = (e) => {
+    const inputEmail = e.target.value;
+    setEmail(inputEmail);
+    const re = /\S+@\S+\.\S+/;
+    setIsValidEmail(re.test(inputEmail));
+  };
+
+  const handleGetStartedClick = () => {
+    if (isValidEmail) {
+      window.location.href = `mailto:${email}`;
+    }
+    setEmail('');
+  };
+
   return (
     <div>
       <div className="text-text-primary">
@@ -17,11 +35,21 @@ function Hero() {
             <p className="py-6 leading-9">{data['section-hero'].subtitle}</p>
             <div className="flex items-center gap-2 w-[70vw] lg:w-[30vw]">
               <input
-                type="text"
-                className="text-xs py-2 px-4 rounded-[4px] shadow-md w-full"
+                type="email"
+                value={email}
+                onChange={handleInputChange}
+                className={`text-xs py-2 px-4 rounded-[4px] shadow-md w-full ${
+                  isValidEmail ? '' : 'border-red-500'
+                }`}
                 placeholder={data['section-hero']['input-placeholder']}
               />
-              <button className="shadow-md text-xs text-white bg-primary rounded-[6px] py-2 px-4 min-w-max hover:brightness-110 active:brightness-95 transition-all">
+              <button
+                disabled={!isValidEmail}
+                onClick={handleGetStartedClick}
+                className={`shadow-md text-xs text-white bg-primary rounded-[6px] py-2 px-4 min-w-max hover:brightness-110 active:brightness-95 transition-all ${
+                  !isValidEmail ? 'cursor-not-allowed opacity-50' : ''
+                }`}
+              >
                 Get Started
               </button>
             </div>
