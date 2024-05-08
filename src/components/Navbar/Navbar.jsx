@@ -133,7 +133,7 @@ const Navbar = () => {
                       spy={false}
                       smooth={true}
                       duration={500}
-                      offset={-85}
+                      offset={-78}
                       className="cursor-pointer"
                     >
                       <p
@@ -160,7 +160,7 @@ const Navbar = () => {
               type="text"
               value={searchInput}
               onChange={(e) => setSearchInput(e.target.value)}
-              className="p-1 border-none bg-bg-special"
+              className="p-1 border-none bg-bg-special w-[15vw]"
             />
           </div>
         </div>
@@ -173,11 +173,11 @@ const Navbar = () => {
             />
             {data['section-header'].login}
           </p>
-          <button className="text-md text-primary bg-secondary p-2 px-3 rounded-md font-bold button-item hover:brightness-105 active:brightness-90">
+          {/* <button className="text-md text-primary bg-secondary p-2 px-3 rounded-md font-bold button-item hover:brightness-105 active:brightness-90">
             <p className="text-md cursor-pointer sm:text-[12px] lg:text-[16px] 2xl:text-[18px] min-w-max">
               {data['section-header']['login-button']}
             </p>
-          </button>
+          </button> */}
         </div>
         <div className="sm:hidden w-40">
           <a href="/" className="">

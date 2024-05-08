@@ -4,6 +4,8 @@ import Hero from './components/Hero/Hero';
 import Supports from './components/Sections/Supports';
 import About from './components/Sections/About';
 import Features from './components/Sections/Features';
+import Explore from './components/Sections/Explore';
+import Prices from './components/Sections/Prices';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Supports />
         <About />
         <Features />
+        <Explore />
+        <Prices />
       </Layout>
     </main>
   );

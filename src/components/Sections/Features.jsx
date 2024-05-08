@@ -87,8 +87,8 @@ function Features() {
               </div>
             </div>
           </div>
-          <div className="flex justify-start items-start pt-8 w-full">
-            <a href="#">
+          <div className="flex justify-start items-start py-8 w-full">
+            <a href={data['section-features']['action-link']} target="_blank">
               <p className="cursor-pointer text-[#3183FF] hover:brightness-90 active:brightness-110">
                 {data['section-features'].action}
               </p>
