@@ -79,17 +79,27 @@
     "title": "Ultimate support system for leading agencies",
     "subtitle": "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
     "button": "Get Started",
-    "input-placeholder": "Enter Email address"
-  },
-  "sponsors": {
-    "text": "Sponsored by:",
-    "sponsors-logos": [
-      {
-        "id": 1,
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207923/ia_landing/slider/azid7wpbslt7gejwb6or.png",
-        "alt": "logo1 image"
-      }
-    ]
+    "input-placeholder": "Enter Email address",
+    "sponsors": {
+      "text": "Sponsored by:",
+      "sponsors-logos": [
+        {
+          "id": 1,
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715134752/supportApp/hero/paypal.png",
+          "alt": "logo1 image"
+        },
+        {
+          "id": 2,
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715134752/supportApp/hero/google.png",
+          "alt": "logo2 image"
+        },
+        {
+          "id": 3,
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715134751/supportApp/hero/dropbox.png",
+          "alt": "logo3 image"
+        }
+      ]
+    }
   },
   "section-about": {
     "video": {

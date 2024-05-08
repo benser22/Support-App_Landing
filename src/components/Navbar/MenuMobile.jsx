@@ -21,7 +21,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
       style={{ background: 'rgba(0,0,0,0.3)' }}
     >
       <ul
-        className={`fixed left-0 bg-white top-0 min-h-screen px-4 py-5 min-w-[60vw] flex flex-col gap-4 
+        className={`fixed left-0 bg-[#FFFCF7] top-0 min-h-screen px-4 py-5 min-w-[60vw] flex flex-col gap-4 
         items-start text-text-primary`}
       >
         <div className="flex">
