@@ -45,7 +45,7 @@ const Navbar = () => {
   };
 
   const handleSearchIconClick = () => {
-    console.log('Valor del input:', searchInput);
+    console.log('Input value:', searchInput);
     setSearchInput('');
   };
 
@@ -118,7 +118,7 @@ const Navbar = () => {
               {item.isDropdown && isOpenDrop[item.id] && (
                 <div
                   ref={dropdownRef}
-                  className="absolute top-full mt-1 bg-white rounded-sm bg-opacity-[98%] left-0 z-[100] w-full min-w-max shadow-md"
+                  className="absolute top-full mt-1 bg-bg-special rounded-sm bg-opacity-[98%] left-0 z-[100] w-full min-w-max shadow-md"
                 >
                   {item.items.map((option, index) => (
                     <Link
@@ -154,7 +154,7 @@ const Navbar = () => {
               type="text"
               value={searchInput}
               onChange={(e) => setSearchInput(e.target.value)}
-              className="p-1 border-none"
+              className="p-1 border-none bg-bg-special"
             />
           </div>
         </div>
