@@ -19,8 +19,12 @@ const Navbar = () => {
     };
 
     const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        // Cerrar todos los menús desplegables
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target) &&
+        event.target.id !== 'dropdown-icon' &&
+        event.target.id !== 'dropdown-title'
+      ) {
         setIsOpenDrop({});
       }
     };
@@ -97,11 +101,13 @@ const Navbar = () => {
                   <p
                     className="min-w-max text-md sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max"
                     key={item.id}
+                    id="dropdown-title"
                   >
                     {item.title}
                   </p>
                   {item.isDropdown && (
                     <img
+                      id="dropdown-icon"
                       src={data['section-header']['dropdow-icon'].url}
                       alt={data['section-header']['dropdow-icon'].alt}
                       className="w-[12px] mr-2"
