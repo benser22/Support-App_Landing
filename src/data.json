@@ -75,8 +75,8 @@
           },
           {
             "id": 3,
-            "text": "Supports 3",
-            "link": "support",
+            "text": "Suscribe",
+            "link": "suscribe",
             "external": false
           }
         ],
@@ -342,179 +342,37 @@
     "error": "Please enter a valid email address."
   },
   "section-footer": {
-    "product": {
-      "title": "Product",
-      "href": "#",
-      "links": [
-        {
-          "id": 1,
-          "text": "Login",
-          "url": "/",
-          "external": true
-        },
-        {
-          "id": 2,
-          "text": "Pricing",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 3,
-          "text": "Copy ai Reviews",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 4,
-          "text": "Alternatives",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 5,
-          "text": "25+ Languages",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 6,
-          "text": "Free Ai Tools",
-          "url": "say",
-          "external": false
-        }
-      ]
-    },
-    "company": {
-      "title": "Company",
-      "href": "#",
-      "links": [
-        {
-          "id": 1,
-          "text": "Blog",
-          "url": "https://www.blogger.com/about/?hl=es",
-          "external": true
-        },
-        {
-          "id": 2,
-          "text": "Careers",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 3,
-          "text": "Community",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 4,
-          "text": "Twitter",
-          "url": "https://twitter.com/",
-          "external": true
-        },
-        {
-          "id": 5,
-          "text": "Linkedin",
-          "url": "https://linkedin.com/",
-          "external": true
-        },
-        {
-          "id": 6,
-          "text": "Affiliate Program",
-          "url": "#",
-          "external": false
-        }
-      ]
-    },
-    "support": {
-      "title": "Support",
-      "href": "#",
-      "links": [
-        {
-          "id": 1,
-          "text": "Weekly Deos",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 2,
-          "text": "Contact Us",
-          "url": "mailto:example@example.com",
-          "external": true
-        },
-        {
-          "id": 3,
-          "text": "Report a Bug",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 4,
-          "text": "Report an Outage",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 5,
-          "text": "Request a New Feature",
-          "url": "#",
-          "external": false
-        }
-      ]
-    },
-    "user-cases": {
-      "title": "User Cases",
-      "href": "#",
-      "links": [
-        {
-          "id": 1,
-          "text": "For Blog Writers",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 2,
-          "text": "For Social Media",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 3,
-          "text": "Managers",
-          "url": "#",
-          "external": false
-        },
-        {
-          "id": 4,
-          "text": "Report",
-          "url": "#",
-          "external": false
-        }
-      ]
-    },
+    "links": [
+      {
+        "id": 1,
+        "text": "Home",
+        "href": "home"
+      },
+      {
+        "id": 2,
+        "text": "Adversite",
+        "href": "features"
+      },
+      {
+        "id": 3,
+        "text": "Supports",
+        "href": "support"
+      },
+      {
+        "id": 4,
+        "text": "Marketing",
+        "href": "explore"
+      },
+      {
+        "id": 5,
+        "text": "FAQ",
+        "href": "testimonials"
+      }
+    ],
     "logo-white": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207440/ia_landing/logos/logo-w.png",
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715105390/supportApp/logo/footer-logo.png",
       "alt": "logo image"
     },
-    "copywrite": "© 2022 copy ai, Inc",
-    "privacy": { "text": "Privacy Notice", "url": "" },
-    "terms": { "text": "Terms of service", "url": "" },
-    "social-media": {
-      "facebook": {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/facebook.png",
-        "alt": "facebook icon",
-        "link": "https://www.facebook.com/pages/create/"
-      },
-      "instagram": {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/instagram.png",
-        "alt": "linkedin icon",
-        "link": "https://www.instagram.com/"
-      },
-      "twitter": {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714215273/ia_landing/icons/twitter.png",
-        "alt": "twitter icon",
-        "link": "https://twitter.com/userrandom"
-      }
-    }
+    "copywrite": "Copyright by 2019 YourName, Inc"
   }
 }

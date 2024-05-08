@@ -8,6 +8,7 @@ import Explore from './components/Sections/Explore';
 import Prices from './components/Sections/Prices';
 import Testimonials from './components/Sections/Testimonials';
 import Last from './components/Sections/Last';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Prices />
         <Testimonials />
         <Last />
+        <Footer />
       </Layout>
     </main>
   );
