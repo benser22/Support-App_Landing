@@ -126,14 +126,24 @@
     ]
   },
   "section-about": {
-    "video": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/video/upload/v1714271421/ia_landing/arflysquuiyapgl5nwcd.mp4",
-      "alt": "video design"
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715153783/supportApp/about/image.png",
+      "alt": "image about"
     },
-    "title": "More About Us",
-    "subtitle": "Professional & Team Choose Copy.Ai",
-    "paragraph": "Odio dictum lacus augue nulla sit integer facilisis massa. Nec et tellus eu amet. Faucibus sit sit massa ullamcorper",
-    "button": "Get Started"
+    "title": "Meet our premium features that will make you wow",
+    "emoji": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715153783/supportApp/about/emoji.png",
+      "alt": "emoji png"
+    },
+    "subtitle": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.",
+    "title-paragraph": "Organize your project content",
+    "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the managments that supplies best design system which guidelines ever with multiple features.",
+    "action1": "Collaborate your multiple team support easily",
+    "action2": "Build your team's knowledge base system",
+    "arrow": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136281/supportApp/support/arrow.png",
+      "alt": "arrow icon"
+    }
   },
   "section-features": {
     "title": "Our Features",
