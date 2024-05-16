@@ -168,7 +168,10 @@ const Navbar = () => {
             />
           </div>
         </div>
-        <div className="hidden sm:flex items-center mx-2 space-x-2 md:space-x-4">
+        <div
+          className="hidden sm:flex items-center mx-2 space-x-2 md:space-x-4"
+          onClick={handleButtonClick}
+        >
           <p className="flex items-center gap-2 text-md cursor-pointer hover:text-red-custom sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max border-b-2 border-transparent hover:border-b-2 text-text-primary hover:border-primary menu-item">
             <img
               src={data['section-header']['login-icon']}

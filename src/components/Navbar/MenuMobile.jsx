@@ -47,23 +47,18 @@ const MenuMobile = ({ isOpen, onClick }) => {
               isOpenDrop={isOpenDrop}
             />
           ))}
-          <a href="#" target="_blank">
-            <div
-              className="flex items-center gap-4"
-              onClick={handleButtonClick}
-            >
-              {data['section-header']['login-icon'] && (
-                <img
-                  src={data['section-header']['login-icon-mobile']}
-                  alt={data['section-header'].login}
-                  className="w-[26px] h-[26px]"
-                />
-              )}
-              <p className="min-w-max text-md hover:text-red-custom active:text-red-custom">
-                {data['section-header'].login}
-              </p>
-            </div>
-          </a>
+          <div className="flex items-center gap-4" onClick={handleButtonClick}>
+            {data['section-header']['login-icon'] && (
+              <img
+                src={data['section-header']['login-icon-mobile']}
+                alt={data['section-header'].login}
+                className="w-[26px] h-[26px]"
+              />
+            )}
+            <p className="min-w-max text-md hover:text-red-custom active:text-red-custom">
+              {data['section-header'].login}
+            </p>
+          </div>
           <a href="#" target="_blank">
             <div className="flex items-center gap-4">
               {data['section-header']['login-button-icon'] && (
