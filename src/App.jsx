@@ -23,8 +23,8 @@ function App() {
         <Prices />
         <Testimonials />
         <Last />
-        <Footer />
       </Layout>
+      <Footer />
     </main>
   );
 }

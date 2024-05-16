@@ -91,9 +91,9 @@
         "placeholder": ""
       }
     },
-    "login": "Login",
-    "login-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715101285/supportApp/icons/padlock.png",
-    "login-icon-mobile": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/login.png",
+    "login": "Contact",
+    "login-icon": "/contact.png",
+    "login-icon-mobile": "/contactFilled.png",
     "login-button": "Get Started",
     "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715114871/supportApp/icons-mobile/started.png"
   },
@@ -335,10 +335,10 @@
     ]
   },
   "section-last": {
-    "title": "Subscribe to get notified about update",
+    "title": "Contact us to get notified about update",
     "subtitle": "By subscribing with your mail, you will accept our privacy policy",
     "input_placeholder": "Enter your email",
-    "button": "Subscribe us",
+    "button": "Contact us",
     "error": "Please enter a valid email address."
   },
   "section-footer": {
@@ -374,5 +374,6 @@
       "alt": "logo image"
     },
     "copywrite": "Copyright by 2019 YourName, Inc"
-  }
+  },
+  "contact": "Support-App@gmail.com"
 }

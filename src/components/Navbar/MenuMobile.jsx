@@ -12,6 +12,10 @@ const MenuMobile = ({ isOpen, onClick }) => {
     }));
   };
 
+  const handleButtonClick = () => {
+    window.location.href = `mailto:${data.contact}?subject=Contacto`;
+  };
+
   return (
     <div
       className={`${
@@ -44,7 +48,10 @@ const MenuMobile = ({ isOpen, onClick }) => {
             />
           ))}
           <a href="#" target="_blank">
-            <div className="flex items-center gap-4">
+            <div
+              className="flex items-center gap-4"
+              onClick={handleButtonClick}
+            >
               {data['section-header']['login-icon'] && (
                 <img
                   src={data['section-header']['login-icon-mobile']}

@@ -1,7 +1,7 @@
 function Card({ paragraph, url, alt, name, role }) {
   return (
     <div>
-      <div className="md:w-[30vw]">
+      <div className="md:max-w-[310px] w-full sm:w-[30vw] ">
         <figure className="flex flex-col items-start justify-center p-2 bg-white rounded-lg shadow-xl text-text-primary">
           <p className="my-4 text-[14px]">{paragraph}</p>
           <figcaption className="flex items-center justify-center ">

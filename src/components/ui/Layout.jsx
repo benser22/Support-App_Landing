@@ -3,6 +3,7 @@ const Layout = ({ maxWidth, children }) => {
     <div
       className={`
      px-2 ${maxWidth} mx-auto
+     bg-[#FFFCF7]
     `}
     >
       {children}

@@ -53,6 +53,10 @@ const Navbar = () => {
     setSearchInput('');
   };
 
+  const handleButtonClick = () => {
+    window.location.href = `mailto:${data.contact}?subject=Contacto`;
+  };
+
   return (
     <header
       className={`fixed z-[98] top-0 left-0 w-full px-8 xl:px-16 py-2 flex justify-between items-center h-[78px] text-text-primary ${

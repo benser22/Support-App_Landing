@@ -3,12 +3,12 @@ import Card from '../utils/Card';
 import { useMediaQuery } from 'react-responsive';
 
 export default function Testimonials() {
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
 
   return (
     <section id="testimonials">
-      <div className="flex flex-col justify-center items-start py-12 bg-[#FFFCF7] px-4">
-        <div className="flex flex-wrap items-center gap-2">
+      <div className="flex flex-col justify-center items-start py-12 px-4 w-full">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2 xl:gap-4">
           {data['section-testimonials'].clients
             ?.slice(0, isMobile ? 2 : undefined)
             .map((client, index) => (
