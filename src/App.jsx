@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <main className="h-screen">
+    <main>
       <Navbar />
       <Layout maxWidth="max-w-[1440px]">
         <Hero />
