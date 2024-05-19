@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Layout = ({ maxWidth, children }) => {
   return (
     <div
@@ -10,4 +12,10 @@ const Layout = ({ maxWidth, children }) => {
     </div>
   );
 };
+
+Layout.propTypes = {
+  maxWidth: PropTypes.string,
+  children: PropTypes.node.isRequired,
+};
+
 export default Layout;

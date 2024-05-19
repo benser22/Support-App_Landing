@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import data from '../../data.json';
+import PropTypes from 'prop-types';
 
 const MenuMobile = ({ isOpen, onClick }) => {
   const [isOpenDrop, setIsOpenDrop] = useState({});
@@ -28,15 +29,18 @@ const MenuMobile = ({ isOpen, onClick }) => {
         className={`fixed left-0 bg-[#FFFCF7] top-0 min-h-screen px-4 py-5 min-w-[60vw] flex flex-col gap-4 
         items-start text-text-primary`}
       >
-        <div className="flex">
-          <a href="/">
+        <div className="flex-col justify-center items-center">
+          <a href="/" className="flex items-center gap-2 justify-center pt-2">
             <img
-              src={data['section-header'].logo.image.url}
-              alt={data['section-header'].logo.image.alt}
-              className="h-[36px] cursor-pointer mx-auto mt-4"
+              src={data['section-footer'].logo.url}
+              alt={data['section-footer'].logo.alt}
+              className="h-10 hover:brightness-110 active:brightness-90"
             />
-            <hr className="mt-6 w-[50vw]"></hr>
+            <p className="min-w-max text-xl text-text-primary font-bold mr-4 hover:text-primary">
+              {data['section-footer'].logo.text}
+            </p>
           </a>
+          <hr className="mt-6 w-[50vw]"></hr>
         </div>
         <div className="ml-[2vw] flex flex-col gap-12 mt-6 w-full">
           {data['section-header'].links.map((item, index) => (
@@ -47,32 +51,26 @@ const MenuMobile = ({ isOpen, onClick }) => {
               isOpenDrop={isOpenDrop}
             />
           ))}
-          <div className="flex items-center gap-4" onClick={handleButtonClick}>
-            {data['section-header']['login-icon'] && (
+          <a href={data['section-header']['blog-ref']} target="_blank">
+            <p className="flex items-center gap-4 text-md cursor-pointer hover:text-red-custom sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max border-b-2 border-transparent hover:border-b-2 text-text-primary hover:border-primary menu-item">
               <img
-                src={data['section-header']['login-icon-mobile']}
-                alt={data['section-header'].login}
-                className="w-[26px] h-[26px]"
+                src={data['section-header']['blog-icon-mobile']}
+                alt="blog icon"
+                className="h-6"
               />
-            )}
-            <p className="min-w-max text-md hover:text-red-custom active:text-red-custom">
-              {data['section-header'].login}
+              {data['section-header']['blog-button']}
+            </p>
+          </a>
+          <div onClick={handleButtonClick}>
+            <p className="flex items-center gap-4 text-md cursor-pointer hover:text-red-custom sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max border-b-2 border-transparent hover:border-b-2 text-text-primary hover:border-primary menu-item">
+              <img
+                src={data['section-header']['contact-icon-mobile']}
+                alt="login icon"
+                className="h-6"
+              />
+              {data['section-header'].contact}
             </p>
           </div>
-          <a href="#" target="_blank">
-            <div className="flex items-center gap-4">
-              {data['section-header']['login-button-icon'] && (
-                <img
-                  src={data['section-header']['login-button-icon']}
-                  alt={data['section-header']['login-button']}
-                  className="w-[26px] h-[26px]"
-                />
-              )}
-              <button className="mr-auto min-w-max text-md hover:text-red-custom active:text-red-custom">
-                {data['section-header']['login-button']}
-              </button>
-            </div>
-          </a>
         </div>
       </ul>
     </div>
@@ -145,5 +143,16 @@ function RenderLink({ link, handleDropdownToggle, isOpenDrop }) {
     </div>
   );
 }
+
+RenderLink.propTypes = {
+  link: PropTypes.object.isRequired,
+  handleDropdownToggle: PropTypes.func.isRequired,
+  isOpenDrop: PropTypes.object.isRequired,
+};
+
+MenuMobile.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
 
 export default MenuMobile;

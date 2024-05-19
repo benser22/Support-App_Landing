@@ -54,7 +54,7 @@ const Navbar = () => {
   };
 
   const handleButtonClick = () => {
-    window.location.href = `mailto:${data.contact}?subject=Contacto`;
+    window.location.href = `mailto:${data.contact}?subject=Contact`;
   };
 
   return (
@@ -68,11 +68,15 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between w-full text-text-primary">
         <div className="hidden sm:flex items-center justify-between md:space-x-6 sm:space-x-2">
-          <a href="/" className="w-40 mr-8">
+          <a href="/" className="flex items-center gap-2">
             <img
-              src={data['section-header'].logo.image.url}
-              alt={data['section-header'].logo.image.alt}
+              src={data['section-footer'].logo.url}
+              alt={data['section-footer'].logo.alt}
+              className="h-10 hover:brightness-110 active:brightness-90"
             />
+            <p className="min-w-max text-text-primary font-semi-bold pr-8 hover:text-primary">
+              {data['section-footer'].logo.text}
+            </p>
           </a>
           {data['section-header'].links.map((item, index) => (
             <div
@@ -168,30 +172,38 @@ const Navbar = () => {
             />
           </div>
         </div>
-        <div
-          className="hidden sm:flex items-center mx-2 space-x-2 md:space-x-4"
-          onClick={handleButtonClick}
-        >
-          <p className="flex items-center gap-2 text-md cursor-pointer hover:text-red-custom sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max border-b-2 border-transparent hover:border-b-2 text-text-primary hover:border-primary menu-item">
-            <img
-              src={data['section-header']['login-icon']}
-              alt="login icon"
-              className="h-4"
-            />
-            {data['section-header'].login}
-          </p>
-          {/* <button className="text-md text-primary bg-secondary p-2 px-3 rounded-md font-bold button-item hover:brightness-105 active:brightness-90">
-            <p className="text-md cursor-pointer sm:text-[12px] lg:text-[16px] 2xl:text-[18px] min-w-max">
-              {data['section-header']['login-button']}
+        <div className="hidden sm:flex items-center mx-2 space-x-6">
+          <a href={data['section-header']['blog-ref']} target="_blank">
+            <p className="flex items-center gap-2 text-md cursor-pointer hover:text-red-custom sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max border-b-2 border-transparent hover:border-b-2 text-text-primary hover:border-primary menu-item">
+              <img
+                src={data['section-header']['blog-button-icon']}
+                alt="blog icon"
+                className="h-4"
+              />
+              {data['section-header']['blog-button']}
             </p>
-          </button> */}
+          </a>
+          <a onClick={handleButtonClick}>
+            <p className="flex items-center gap-2 text-md cursor-pointer hover:text-red-custom sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max border-b-2 border-transparent hover:border-b-2 text-text-primary hover:border-primary menu-item">
+              <img
+                src={data['section-header']['contact-icon']}
+                alt="login icon"
+                className="h-4"
+              />
+              {data['section-header'].contact}
+            </p>
+          </a>
         </div>
         <div className="sm:hidden w-40">
-          <a href="/" className="">
+          <a href="/" className="flex items-center gap-2">
             <img
-              src={data['section-header'].logo.image.url}
-              alt={data['section-header'].logo.image.alt}
+              src={data['section-footer'].logo.url}
+              alt={data['section-footer'].logo.alt}
+              className="h-10 hover:brightness-110 active:brightness-90"
             />
+            <p className="min-w-max text-xl text-text-primary font-semi-bold mr-4 hover:text-primary">
+              {data['section-footer'].logo.text}
+            </p>
           </a>
         </div>
       </div>

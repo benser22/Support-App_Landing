@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function Card({ paragraph, url, alt, name, role }) {
   return (
     <div>
@@ -16,4 +18,13 @@ function Card({ paragraph, url, alt, name, role }) {
     </div>
   );
 }
+
+Card.propTypes = {
+  paragraph: PropTypes.string,
+  url: PropTypes.string,
+  alt: PropTypes.string,
+  name: PropTypes.string,
+  role: PropTypes.string,
+};
+
 export default Card;

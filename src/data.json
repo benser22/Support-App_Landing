@@ -1,11 +1,5 @@
 {
   "section-header": {
-    "logo": {
-      "image": {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715105390/supportApp/logo/home-logo.png",
-        "alt": "logo image"
-      }
-    },
     "dropdow-icon": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715099070/supportApp/icons/dropdown.png",
       "alt": "icon drop"
@@ -55,35 +49,6 @@
       },
       {
         "id": 4,
-        "title": "Supports",
-        "href": "support",
-        "external": false,
-        "isDropdown": true,
-        "items": [
-          {
-            "id": 1,
-            "text": "Supports 1",
-            "link": "support",
-            "external": false
-          },
-          {
-            "id": 2,
-            "text": "Supports 2",
-            "link": "support",
-            "external": false
-          },
-          {
-            "id": 3,
-            "text": "Suscribe",
-            "link": "suscribe",
-            "external": false
-          }
-        ],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/supports.png",
-        "alt": "support icon"
-      },
-      {
-        "id": 5,
         "title": "Project",
         "href": "project",
         "external": false,
@@ -100,11 +65,13 @@
         "placeholder": ""
       }
     },
-    "login": "Contact",
-    "login-icon": "/contact.png",
-    "login-icon-mobile": "/contactFilled.png",
-    "login-button": "Get Started",
-    "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715114871/supportApp/icons-mobile/started.png"
+    "contact": "Contact",
+    "contact-icon": "/contact.png",
+    "contact-icon-mobile": "/contactFilled.png",
+    "blog-button": "Blog",
+    "blog-ref": "https://www.blogger.com",
+    "blog-button-icon": "blog.png",
+    "blog-icon-mobile": "/blogFilled.png"
   },
   "section-hero": {
     "image": {
@@ -369,8 +336,8 @@
       },
       {
         "id": 4,
-        "text": "Marketing",
-        "href": "explore"
+        "text": "Project",
+        "href": "project"
       },
       {
         "id": 5,
@@ -378,11 +345,12 @@
         "href": "testimonials"
       }
     ],
-    "logo-white": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715105390/supportApp/logo/footer-logo.png",
+    "logo": {
+      "url": "logo.png",
+      "text": "Support-App",
       "alt": "logo image"
     },
-    "copywrite": "Copyright by 2019 YourName, Inc"
+    "copywrite": "Copyright by 2024 SupportApp, Inc"
   },
-  "contact": "Support-App@gmail.com"
+  "contact": "support-app@gmail.com"
 }

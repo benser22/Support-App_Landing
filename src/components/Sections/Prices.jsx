@@ -23,13 +23,13 @@ function Prices() {
             type="checkbox"
             className="toggle [--tglbg:orange] bg-white hover:bg-secondary border-primary"
             checked={check}
-            onClick={handleToggle}
+            onChange={handleToggle}
           />
           <p className="font-semibold">{data['section-price'].option2}</p>
         </div>
         <div className="flex flex-col sm:flex-row items-start justify-center gap-4">
           {/* CARD  1 */}
-          <div className="flex flex-col py-8 px-4 shadow-xl justify-center items-start rounded-lg sm:w-[42%]">
+          <div className="flex flex-col py-8 px-4 shadow-md justify-center items-start rounded-lg sm:w-[42%]">
             <p className="font-bold">{data['section-price'].card1.title}</p>
             <p className="font-semi-bold text-primary">
               {data['section-price'].card1.price}
@@ -78,7 +78,7 @@ function Prices() {
             </button>
           </div>
           {/* CARD  2 */}
-          <div className="flex flex-col py-8 px-4 shadow-xl justify-center items-start rounded-lg sm:w-[42%]">
+          <div className="flex flex-col py-8 px-4 shadow-md justify-center items-start rounded-lg sm:w-[42%]">
             <p className="font-bold">{data['section-price'].card2.title}</p>
             <p className="font-semi-bold text-primary">
               {data['section-price'].card2.price}
