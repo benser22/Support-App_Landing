@@ -14,7 +14,7 @@ function Hero() {
 
   const handleGetStartedClick = () => {
     if (isValidEmail) {
-      window.location.href = `mailto:${data.contact}?subject=Contacto&body=Email del contacto: ${email}`;
+      window.location.href = `mailto:${data.contact}?subject=Contact&body=Contact email: ${email}`;
     }
     setEmail('');
   };

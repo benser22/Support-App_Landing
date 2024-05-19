@@ -18,7 +18,7 @@ function Last() {
 
   const handleButtonClick = () => {
     if (isValidEmail && email) {
-      window.location.href = `mailto:${data.contact}?subject=Contacto&body=Email del contacto: ${email}`;
+      window.location.href = `mailto:${data.contact}?subject=Contact&body=Contact email: ${email}`;
       setEmail('');
     } else {
       console.log(data['section-last'].error);

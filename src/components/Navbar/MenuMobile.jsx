@@ -14,7 +14,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
   };
 
   const handleButtonClick = () => {
-    window.location.href = `mailto:${data.contact}?subject=Contacto`;
+    window.location.href = `mailto:${data.contact}?subject=Contact`;
   };
 
   return (
