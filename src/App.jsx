@@ -16,7 +16,7 @@ const LazyHero = lazy(() => import('./components/Hero/Hero'));
 
 function App() {
   return (
-    <main className="bg-[#FFFCF7]">
+    <main>
       <Navbar />
       <Layout maxWidth="max-w-[1440px]">
         <Suspense fallback={<Loader />}>
